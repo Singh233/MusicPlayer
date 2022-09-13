@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- Header of the Page -->
+    <nav id="header" class="navigation">
+
+        <!-- Logo and brand name div -->
+        <div class="brand">
+            <div class="brand-image" >
+                <img src="images/apple-music-logo-circle-png-28.png" >
+            </div>
+            <div class="brand-name" >
+                <p>Sanam</p>
+                <p class="p2">Studio</p>
+            </div>
+            
+        </div>
+
+
+        <div id="artist-info" class="artist-info-header-tab">
+            <img src="images/ritiviz_cover1.jpeg">
+            <p>Ritviz</p>
+        </div>
+
+
+         <!-- Navigation Panel -->
+         <div class="nav-header">
+            <div class="nav-list">
+                <a class="home-list"  href="#"><i class="fa-brands fa-tiktok home-icon"></i>Home</a>
+                <a class="like-list"  href="#"><i class="fa-solid fa-heart favorites-icon"></i>Favorites</a>
+                <a class="trending-list"  href="#"><i class="fa-solid fa-chart-simple charts-icon"></i>Trending</a>
+                <!-- <ul class="nav-list">
+                    <li class="home-list" href="#"><i class="fa-solid fa-house home-icon"></i>Home</li>
+                    <li class="like-list"><i class="fa-solid fa-heart favorites-icon"></i><i class="fa-regular fa-heart"></i>Favorites</li>
+                    <li class="trending-list"><i class="fa-solid fa-chart-simple charts-icon"></i>Trending</li>
+                </ul> -->
+            </div>
+        </div>
+
+
+
+        <!-- Search option -->
+        <div class="search-option">
+
+            <form class="search-form">
+                <i class="fa-solid fa-microphone"></i>
+                <input class="search-input" type="search" placeholder="Search" required>
+                <button class="search-button" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+
+        </div>
+
+        <!-- <div class="search-option">
+            <div class="searchBox">
+                <input class="searchInput"type="text" name="" placeholder="Search" required>         
+                <button class="searchButton" href="#">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+        </div> -->
+      
+
+
+        <!-- Profile and notification div -->
+        <div class="right-nav">
+            <i class="fa-solid fa-bell"></i>
+            <div class="vertical-line">
+
+            </div>
+            <div class="profile border-left">
+                <img src="images/apple-music-logo-circle-png-28.png">
+                <i class="fa-solid fa-caret-down"></i>
+                <div class="profile-dropdown">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="menu-option">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
+
+    </nav>
+
+
+    <!-- Artist PlayList Section -->
+    <section class="artist-playlist-section">
+
+        <aside class="aside-left">
+            <div class="similar-artist">
+                <p>Similar Artists</p>
+                <span>View all</span>
+
+                <div class="artist1">
+                    <img src="images/artistimg/nucleya.jpeg">
+                    <div class="name-category">
+                        <p>Nucleya</p>
+                        <p style="font-size: 0.8rem;">Artist</p>
+                    </div>
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+
+                </div>
+
+                <div class="artist4">
+                    <img src="images/artistimg/thelocaltrain.jpeg">
+                    <div class="name-category">
+                        <p>The Local Train</p>
+                        <p style="font-size: 0.8rem;">Band</p>
+                    </div>
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+
+                <div class="artist2">
+                    <img src="images/artistimg/jasleen.jpeg">
+                    <div class="name-category">
+                        <p>Jasleen Royal</p>
+                        <p style="font-size: 0.8rem;">Artist</p>
+                    </div>
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+
+            
+
+
+
+
+                <!-- <div class="artist4">
+                    <img src="images/artistimg/thelocaltrain.jpeg">
+                    <div class="name-category">
+                        <p>The Local Train</p>
+                        <p style="font-size: 0.8rem;">Band</p>
+                    </div>
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+
+                <div class="artist5">
+                    <img src="images/artistimg/farhan_akhtar.jpeg">
+                    <div class="name-category">
+                        <p>Farhan Akhtar</p>
+                        <p style="font-size: 0.8rem;">Artist</p>
+                    </div>
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+
+                <div class="artist6">
+                    <img src="images/artistimg/zaeden.jpeg">
+                    <div class="name-category">
+                        <p>Zaeden</p>
+                        <p style="font-size: 0.8rem;">Artist</p>
+                    </div>
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+
+                <div class="artist7">
+                    <img src="images/artistimg/anuvjain.jpeg">
+                    <div class="name-category">
+                        <p>Anuv Jain</p>
+                        <p style="font-size: 0.8rem;">Artist</p>
+                    </div>
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div> -->
+
+            </div>
+
+        </aside>        
+        <main class="main">
+            <div class="about-artist">
+
+                <div class="artist-info">
+
+                    <div class="artist-image">
+                        
+                        <img id="similar-artist-tab2" src="images/artistimg/jasleen.jpeg" alt="">
+                        <img id="similar-artist-tab1" src="images/artistimg/nucleya.jpeg" alt="">
+                    
+                        <img src="images/ritiviz_cover1.jpeg" alt="">
+
+                        <img id="similar-artist-tab1" src="images/artistimg/anuvjain.jpeg" alt="">
+                        <img id="similar-artist-tab2" src="images/artistimg/farhan_akhtar.jpeg" alt="">
+
+                       
+                    </div>
+                    <div class="stats-container">
+                        <div class="verified-artist">
+                            <img src="images/verify.png">
+                            <p>Verified Artist</p>
+                        </div>
+                        <div class="artist-name-tab">
+                            <a class="play-button"  href="#">Play</a>
+                            <div class="artist-name2">
+                                <h1>Ritviz</h1>
+                            </div>
+                            <a class="follow-button"  href="#">Follow</a>
+                        </div>
+
+                        <div class="artist-name">
+                            <h1>Ritviz</h1>
+                            <div class="follow-play-section">
+                                <a class="play-button"  href="#">Play</a>
+                                <a class="follow-button"  href="#">Follow</a>
+                            </div>
+                        </div>
+                        
+
+                        <div class="stats-tab">
+                            <p>2.3M monthly listeners</p>
+                        </div>
+
+                    </div>
+
+                    <!-- <div class="about-artist-para">
+                        <p>
+                            One of India's most popular young electronic music producers Few
+                            artists have experienced the meteoric rise to fame that 25-year old
+                            Ritviz Srivastava has, and even fewer have been able to sustain that
+                            popularity. 
+                        </p>
+                    </div> -->
+
+                    <div class="artist-info-thirdcol">
+                        <div class="stats">
+                            <p>2.3M monthly listeners</p>
+                        </div>
+
+                        <div class="stats-mobile">
+                            <p><i class="fa-solid fa-chart-simple"></i> 2.3m </p>
+                        </div>
+
+                        <div class="social-read-more">
+                            <i class="fa-regular fa-circle-play  play-button-mobile"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-facebook"></i>
+                            
+                        </div>
+
+                        <div class="follow-play-section-tab">
+                            <a class="play-button"  href="#">Play</a>
+                            <a class="follow-button"  href="#">Follow</a>
+                        </div>
+
+                        
+                    </div>
+                    
+                    
+                </div>
+                
+
+            </div>
+
+            <div class="playlist">
+                <div class="song1">
+                    <span class="song-id">1</span>
+                    <div class="song-img">
+                    <img src="images/songimg/liggi.jpeg">
+                    </div>
+                    <span class="list-song-name">Liggi</span>
+                    <span class="song-stats">86,542,759</span>
+                    <span class="song-stats-mobile"><i class="fa-solid fa-chart-simple"></i>&nbsp;86.5m</span>
+                    <i class="fa-regular fa-heart"></i>
+                    <span>3:01</span>
+                    <i class="fa-solid fa-ellipsis"></i>
+                </div>
+                <div class="song2">
+                    <span class="song-id">2</span>
+                    <div class="song-img">
+                        <img src="images/songimg/sage.jpeg">
+                    </div>
+                    <span class="list-song-name">Udd Gaye</span>
+                    <span class="song-stats">60,823,846</span>
+                    <span class="song-stats-mobile"><i class="fa-solid fa-chart-simple"></i>&nbsp;60.8m</span>
+
+                    <i class="fa-regular fa-heart"></i>
+                    <span>3:00</span>
+                    <i class="fa-solid fa-ellipsis"></i>
+                </div>
+                <div class="song3">
+                    <span class="song-id">3</span>
+                    <div class="song-img">
+                        <img src="images/songimg/baarat.jpeg">
+                    </div>
+                    <span class="list-song-name">Baaraat</span>
+                    <span class="song-stats">18,082,924</span>
+                    <span class="song-stats-mobile"><i class="fa-solid fa-chart-simple"></i>&nbsp;18.1m</span>
+
+                    <i class="fa-regular fa-heart"></i>
+                    <span>3:42</span>
+                    <i class="fa-solid fa-ellipsis"></i>
+                </div>
+                <div class="song4">
+                    <span class="song-id">4</span>
+                    <div class="song-img">
+                        <img src="images/songimg/sage.jpeg">
+                    </div>
+                    <span class="list-song-name">Sage</span>
+                    <span class="song-stats">31,440,056</span>
+                    <span class="song-stats-mobile"><i class="fa-solid fa-chart-simple"></i>&nbsp;31.4m</span>
+
+                    <i class="fa-regular fa-heart"></i>
+                    <span>3:50</span>
+                    <i class="fa-solid fa-ellipsis"></i>
+                </div>
+                <div class="song5">
+                    <span class="song-id">5</span>
+                    <div class="song-img">
+                        <img src="images/songimg/liggi.jpeg">
+                    </div>
+                    <span class="list-song-name">Chalo Chalein</span>
+                    <span class="song-stats">23,657,051</span>
+                    <span class="song-stats-mobile"><i class="fa-solid fa-chart-simple"></i>&nbsp;23.6m</span>
+
+                    <i class="fa-regular fa-heart"></i>
+                    <span>3:04</span>
+                    <i class="fa-solid fa-ellipsis"></i>
+                </div>
+                <div class="song6">
+                    <span class="song-id">6</span>
+                    <div class="song-img">
+                        <img src="images/songimg/baarat.jpeg">
+                    </div>
+                    <span class="list-song-name">Roz</span>
+                    <span class="song-stats">6,621,258</span>
+                    <span class="song-stats-mobile"><i class="fa-solid fa-chart-simple"></i>&nbsp;6.6m</span>
+
+                    <i class="fa-regular fa-heart"></i>
+                    <span>3:39</span>
+                    <i class="fa-solid fa-ellipsis"></i>
+                </div>
+                <div class="song7">
+                    <span class="song-id">7</span>
+                    <div class="song-img">
+                        <img src="images/songimg/sage.jpeg">
+                    </div>
+                    <span class="list-song-name">Jeet</span>
+                    <span class="song-stats">22,404,162</span>
+                    <span class="song-stats-mobile"><i class="fa-solid fa-chart-simple"></i>&nbsp;22.4m</span>
+
+                    <i class="fa-regular fa-heart"></i>
+                    <span>3:04</span>
+                    <i class="fa-solid fa-ellipsis"></i>
+                </div>
+                <div class="song8">
+                    <span class="song-id">8</span>
+                    <div class="song-img">
+                        <img src="images/songimg/liggi.jpeg">
+                    </div>
+                    <span class="list-song-name">Thandi Hawa</span>
+                    <span class="song-stats">17,436,759</span>
+                    <span class="song-stats-mobile"><i class="fa-solid fa-chart-simple"></i>&nbsp;17.4m</span>
+
+                    <i class="fa-regular fa-heart"></i>
+                    <span>3:23</span>
+                    <i class="fa-solid fa-ellipsis"></i>
+                </div>
+                    
+            </div>
+
+
+            </div>
+
+        </main>
+
+        <aside class="aside-right">
+            
+
+            <div class="recently-played">
+                <p>Albums</p>
+                <span>View all</span>
+
+                <div class="cover-images">
+                    <img src="images/albums/baarat.jpeg">
+                    <img src="images/albums/dev.jpeg">
+                    <img src="images/albums/mimmi.jpeg">
+                    <img src="images/albums/yuv.jpeg">
+
+                </div>
+            </div>
+
+            <div class="similar-artist-mobile">
+                <p>Similar Artist</p>
+                <span>View all</span>
+
+                <div class="cover-images">
+                    <img src="images/artistimg/nucleya.jpeg">
+                    <img src="images/artistimg/jasleen.jpeg">
+                    <img src="images/artistimg/zaeden.jpeg">
+                    <img src="images/artistimg/farhan_akhtar.jpeg">
+
+                </div>
+            </div>
+
+            <div class="recently-played">
+                <p>Discovered On</p>
+                <span>View all</span>
+
+                <div class="cover-images">
+                    <img src="images/discoveredon/indieindia2.jpeg">
+                    <img src="images/discoveredon/trending.jpeg">
+                    <img src="images/discoveredon/chillnama.jpeg">
+                    <img src="images/discoveredon/indieindia.jpeg">
+
+                </div>
+            </div>
+
+            <div class="similar-artist2">
+                <p>Similar Artists</p>
+                <span>View all</span>
+
+                <div class="artist1">
+                    <img src="images/artistimg/nucleya.jpeg">
+                    <div class="name-category">
+                        <p>Nucleya</p>
+                        <p style="font-size: 0.8rem;">Artist</p>
+                    </div>
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+
+                </div>
+
+                <div class="artist4">
+                    <img src="images/artistimg/thelocaltrain.jpeg">
+                    <div class="name-category">
+                        <p>The Local Train</p>
+                        <p style="font-size: 0.8rem;">Band</p>
+                    </div>
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+
+                <div class="artist2">
+                    <img src="images/artistimg/jasleen.jpeg">
+                    <div class="name-category">
+                        <p>Jasleen Royal</p>
+                        <p style="font-size: 0.8rem;">Artist</p>
+                    </div>
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+
+            </div>
+
+        </aside>
+
+    </section>
+
+
+
+
+
+    <!-- Bottom Music Control Section -->
+    <footer class="music-controls-footer">
+        <div class="left-side">
+            <div class="current-song-img">
+                <img src="images/songimg/sage.jpeg">
+            </div>
+            <div class="song-info">
+                <p class="song-title">Udd Gaye</p>
+                <p class="song-artist">Ritviz</p>
+            </div>
+
+            <div class="action-controls">
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-ban"></i>
+                <!-- <i class="fa-solid fa-ellipsis-vertical"></i> -->
+            </div>
+
+        </div>
+
+        <div class="middle-section">
+            <div class="music-controls">
+                <i class="fa-solid fa-shuffle"></i>
+                <i class="fa-solid fa-backward-step"></i>
+                <i class="fa-solid fa-circle-pause pause-icon"></i>
+                <i class="fa-solid fa-forward-step"></i>
+                <i class="fa-solid fa-repeat"></i>
+            </div>
+
+            <div class="progress-div">
+                <p style="font-size: 0.9rem">1:39</p>
+                <div class="progress-bar">
+                    <div class="green-progress">
+
+                    </div>
+                    <i class="fa-solid fa-circle"></i>
+                </div>
+                <p style="font-size: 0.9rem">4:44</p>
+            </div>
+
+        </div>
+
+        <div class="right-side">
+            <div class="queue" alt="Hello">
+                <i class="fa-solid fa-bars"></i>            
+            </div>
+
+            <div class="devices">
+                <i class="fa-solid fa-headphones"></i>
+            </div>
+
+            <div class="audio-level">
+                <i class="fa-solid fa-volume-high"></i>
+                <div class="volume-progress-container">
+                    <div class="volume-progress">
+
+                    </div>
+                    <i class="fa-solid fa-circle"></i>
+
+                </div>
+            </div>
+
+            <div class="fullscreen-option">
+                <i class="fa-solid fa-up-right-and-down-left-from-center fullscreen-icon"></i>
+            </div>
+        </div>
+
+
+
+        <div class="right-side-tab">
+            <div class="music-controls">
+                <i class="fa-solid fa-volume-high"></i>
+                <i class="fa-solid fa-headphones"></i>
+                <i class="fa-solid fa-circle-pause pause-icon"></i>
+                
+            </div>
+        </div>
+
+        <div class="progress-div-tab">
+            <div class="progress-bar">
+                <div class="green-progress">
+
+                </div>
+                <i class="fa-solid fa-circle"></i>
+            </div>
+        </div>
+
+    </footer>
+    
+
+    <script>
+        var myNav = document.getElementById("header");
+        var artistInfo = document.getElementById("artist-info");
+
+        window.onscroll = function() {
+        "use strict";
+        if (document.body.scrollTop >= 340 || document.documentElement.scrollTop >= 340) {
+            artistInfo.classList.add("artist-info-header-tab-visible");
+        } else if (document.body.scrollTop >= 10 || document.documentElement.scrollTop >= 10) {
+            myNav.classList.add("scrolled");
+        }else {
+            myNav.classList.remove("scrolled");
+            artistInfo.classList.remove("artist-info-header-tab-visible");
+        }
+        };
+    </script>
+</body>
+</html>
